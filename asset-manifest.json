@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.45c9f9d1.css",
+    "main.js": "/my_portfolio/static/js/main.c5cbaf72.js",
+    "static/media/Avata.PNG": "/my_portfolio/static/media/Avata.a89679b27fc7b00c14a4.PNG",
+    "index.html": "/my_portfolio/index.html",
+    "main.45c9f9d1.css.map": "/my_portfolio/static/css/main.45c9f9d1.css.map",
+    "main.c5cbaf72.js.map": "/my_portfolio/static/js/main.c5cbaf72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45c9f9d1.css",
+    "static/js/main.c5cbaf72.js"
+  ]
+}
