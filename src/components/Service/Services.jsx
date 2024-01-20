@@ -4,7 +4,7 @@ import "./about.css";
 // import { FiCodesandbox } from "react-icons/fi";
 // import { CgWebsite } from "react-icons/cg";
 import styled from "styled-components";
-// import Card from "./Card";
+import CvPdf from "../../assets/file/CV_english_NguyenDuyManh_2024.pdf";
 import { Slide } from "react-awesome-reveal";
 import avata from "../../assets/img/Avata.PNG";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -45,23 +45,20 @@ const Services = () => {
             </Slide>
             <Slide direction="up">
               <Row className="content">
-                <Col className="area_left" span={8}>
+                <Col className="area_left" span={7.5}>
                   <Row>
                     {" "}
                     <p>Name:</p>
                   </Row>
                   <Row>
                     {" "}
-                    <p>Date of birth:</p>
+                    <p>Birth:</p>
                   </Row>
                   <Row>
                     {" "}
                     <p>Address:</p>
                   </Row>
-                  <Row>
-                    {" "}
-                    <p>Zip Code:</p>
-                  </Row>
+
                   <Row>
                     {" "}
                     <p>Email:</p>{" "}
@@ -71,7 +68,7 @@ const Services = () => {
                     <p>Phone: </p>
                   </Row>
                 </Col>
-                <Col className="area_right text_normal" span={13}>
+                <Col className="area_right text_normal" span={16}>
                   <Row>
                     {" "}
                     <p> Nguyen Duy Manh </p>
@@ -84,10 +81,7 @@ const Services = () => {
                     {" "}
                     <p> Dong Anh, Ha noi, Viet Nam</p>
                   </Row>
-                  <Row>
-                    {" "}
-                    <p> 0000</p>
-                  </Row>
+
                   <Row>
                     {" "}
                     <p> nguyenduymanh241196@gmail.com </p>
@@ -99,15 +93,22 @@ const Services = () => {
                 </Col>
               </Row>
             </Slide>
-            <Button
-              className="downloadBtn"
-              type="primary"
-              shape="round"
-              icon={<AiOutlineDownload />}
-              size="large"
+            <a
+              href={CvPdf}
+              download="CV_english_NguyenDuyManh_2024"
+              target="_blank"
+              rel="noreferrer"
             >
-              Download CV
-            </Button>
+              <Button
+                className="downloadBtn"
+                type="primary"
+                shape="round"
+                icon={<AiOutlineDownload />}
+                size="large"
+              >
+                Download CV
+              </Button>
+            </a>
           </Col>
         </Row>
       </div>

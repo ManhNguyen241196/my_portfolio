@@ -5,7 +5,7 @@ import { Modal } from "antd";
 import { useState } from "react";
 const Project = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const { img, disc } = props.item;
+  const { img, disc, num } = props.item;
 
   // func_modal
   const showModal = () => {
@@ -18,6 +18,65 @@ const Project = (props) => {
     setIsModalOpen(false);
   };
 
+  //func content
+  function ContentModal({ numtitle }) {
+    if (numtitle == 1) {
+      return (
+        <div className="item">
+          <span>
+            This is a support project for the "tape eraser assembly line"
+            project that I participated in earlier. With the requirement to move
+            and assemble large machine clusters within the workshop, we were
+            asked to homemade design and assembly a simple Jib crane with a
+            capacity of 2 tons.
+          </span>
+          <br />
+          <img
+            src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/a0f78897364c36929bfc1b4ed2c265eb/large.JPG"
+            alt="jib crane"
+            width="60%"
+          />
+          <p>
+            {" "}
+            <b>Request:</b>{" "}
+          </p>
+          <ul>
+            <ol>Capacity: 2 tons </ol>
+            <ol> Cover semi-circular work areas (270 degree angle)</ol>
+            <ol>
+              {" "}
+              Are versatile enough to perform a wide variety of local handling
+              and spotting functions
+            </ol>
+            <ol> Ensure safety when lifting.</ol>
+            <ol>
+              Comply with design standards of F.E.M rules (Finite Element
+              Method)
+            </ol>
+          </ul>
+          <p>
+            {" "}
+            <b>What did we do:</b>{" "}
+          </p>
+          <span>
+            Due to the short design time and urgent requirements for assembly,
+            we agreed to refer to standard designs available on the market and
+            adjust them to suit the factory space and usage conditions. There
+            are different types of jib crane but we choose floor-mounted with
+            the mount fixed to the factory floor. We chose that option because
+            The assembly location of structural tools is usually in the middle
+            of the workshop, the workshop floor is also easy to renovate
+          </span>
+        </div>
+      );
+    }
+    return (
+      <li className="item">
+        {" "}
+        <p>Updating ...</p>
+      </li>
+    );
+  }
   return (
     <Container className="project">
       <img src={img} alt="project" />
@@ -32,14 +91,12 @@ const Project = (props) => {
       </div>
 
       <Modal
-        title="Basic Modal"
+        title="Describe"
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
       >
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+        <ContentModal numtitle={num} />
       </Modal>
     </Container>
   );

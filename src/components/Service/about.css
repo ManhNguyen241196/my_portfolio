@@ -8,6 +8,10 @@
     color: #999999;
 }
 
+.text_normal p {
+    overflow-x: hidden;
+}
+
 
 .area_left {
     font-weight: bolder;
@@ -32,6 +36,7 @@
 .content {
     padding-top: 1.5rem;
     font-size: 16px;
+    gap: 2px;
 }
 
 .downloadBtn {
@@ -44,6 +49,7 @@
     .area_about_me .left_img {
         display: none;
     }
+
     .area_about_me .right_text {
         width: 100%;
     }

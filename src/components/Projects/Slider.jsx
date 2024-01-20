@@ -15,26 +15,32 @@ let data = [
   {
     img: jibcrane,
     disc: "Jib Crane is a product to support assembly in the workshop. It differs from standard cranes in being designed ...",
+    num: 1,
   },
   {
     img: carthenter,
     disc: "Assembling, designing and receiving technology transfer from Japan for Terumo's production line is one of the most difficult ...",
+    num: 2,
   },
   {
     img: whitetape,
     disc: "The Correction Tape Pen product assembly line was the first large-scale project that I participated in after graduating ...",
+    num: 3,
   },
   {
     img: spring,
     disc: "Spring Coiling Machine is a machine that I designed and assembled for the first time as a leader. This is the product that impressed me the most",
+    num: 4,
   },
   {
     img: CAE,
     disc: "The CAE project is a really new project for me. I have worked and learned with the CAE process of 1 product...",
+    num: 5,
   },
   {
     img: ANSA,
     disc: "Automating the data retrieval and processing process on ANSA software combined with Excel VBA was the first project that made me approach mechanics 4.0.",
+    num: 6,
   },
 ];
 

@@ -162,6 +162,7 @@ const Profile = styled.div`
       gap: 0.5rem;
       a {
         text-decoration: none;
+        overflow-wrap: anywhere;
         color: lightgray;
         :hover {
           color: orange;

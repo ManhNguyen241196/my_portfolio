@@ -10,7 +10,6 @@ const ProfComponent = () => {
   window.onload = function () {
     // array with texts to type in typewriter
     var dataText = [
-      "I am Mechanical Engineer.",
       "I am Process Automation Engineer",
       "I am Web Designer too",
       "I love technical works!",
@@ -64,7 +63,7 @@ const ProfComponent = () => {
             Hello <span className="green">I'm</span>
           </h3>
           <h1 className="green">Manh Nguyen</h1>
-          <h3 className="run_text">hello</h3>
+          <h3 className="run_text">I am Mechanical Engineer.</h3>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
@@ -100,16 +99,18 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding-top: 18%;
+  padding-top: 16%;
   width: 80%;
   max-width: 1280px;
   margin: 0 auto;
   z-index: 1;
   @media (max-width: 840px) {
+    padding-top: 88px;
     width: 90%;
   }
 
   @media (max-width: 640px) {
+    padding-top: 88px;
     flex-direction: column;
   }
 `;
