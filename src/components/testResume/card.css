@@ -1,0 +1,67 @@
+.icon_calender {
+    /* background-color: #58584d; */
+
+    display: flex;
+    height: fit-content;
+    justify-content: left;
+    width: max-content;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.5rem !important;
+    display: block;
+    top: 0.5rem;
+    position: relative;
+
+}
+
+.background_icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #0ab4df;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.icon_calender .text_calender {
+    color: #c1c2c5;
+    font-size: 0.8rem;
+    width: 10rem;
+    font-weight: bolder;
+}
+
+/* job_info */
+.job_info {
+    padding-left: 2rem;
+}
+
+.job_info h2 {
+    padding-bottom: 0.4rem;
+}
+
+.position_name {
+    color: #c1c2c5;
+}
+
+.position_des {
+    color: #dbdfe7;
+
+}
+
+/* line_resume */
+.line_resume {
+    height: 50rem;
+    width: 0.1rem;
+    background-color: #dbdfe7;
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 5rem;
+    left: 2.2rem;
+
+    @media (max-width: 640px) {
+        height: 63rem;
+    }
+}

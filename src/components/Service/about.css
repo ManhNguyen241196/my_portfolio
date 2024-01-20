@@ -1,0 +1,50 @@
+#avata {
+    height: 480px;
+    object-fit: cover;
+
+}
+
+.text_normal {
+    color: #999999;
+}
+
+
+.area_left {
+    font-weight: bolder;
+}
+
+
+.left_img,
+.right_text {
+    width: 50%;
+}
+
+.right_text h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}
+
+.area_right p {
+    padding-bottom: 1px;
+}
+
+.content {
+    padding-top: 1.5rem;
+    font-size: 16px;
+}
+
+.downloadBtn {
+    margin-top: 1.5rem;
+    background-color: #01be96;
+}
+
+/* mobile */
+@media (max-width: 640px) {
+    .area_about_me .left_img {
+        display: none;
+    }
+    .area_about_me .right_text {
+        width: 100%;
+    }
+}
