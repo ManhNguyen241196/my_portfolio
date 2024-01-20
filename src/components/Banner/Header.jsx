@@ -11,7 +11,7 @@ const Header = () => {
         <span className="green">
           <GiMechanicalArm />
         </span>
-        <h1>ManhNguyen</h1>
+        <h1>Manh</h1>
       </Logo>
       <Nav bar={bar}>
         <span>
