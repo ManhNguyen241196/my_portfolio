@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.cd4634b9.css",
-    "main.js": "/my_portfolio/static/js/main.e76305c9.js",
+    "main.js": "/my_portfolio/static/js/main.3087ba77.js",
     "static/media/Avata.PNG": "/my_portfolio/static/media/Avata.a89679b27fc7b00c14a4.PNG",
+    "static/media/CV_english_NguyenDuyManh_2024.pdf": "/my_portfolio/static/media/CV_english_NguyenDuyManh_2024.a3e2f3a535dcea656a98.pdf",
+    "static/media/productCathenter.PNG": "/my_portfolio/static/media/productCathenter.034bedb35c16035ab233.PNG",
     "index.html": "/my_portfolio/index.html",
     "main.cd4634b9.css.map": "/my_portfolio/static/css/main.cd4634b9.css.map",
-    "main.e76305c9.js.map": "/my_portfolio/static/js/main.e76305c9.js.map"
+    "main.3087ba77.js.map": "/my_portfolio/static/js/main.3087ba77.js.map"
   },
   "entrypoints": [
     "static/css/main.cd4634b9.css",
-    "static/js/main.e76305c9.js"
+    "static/js/main.3087ba77.js"
   ]
 }
